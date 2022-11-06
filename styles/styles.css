@@ -1,0 +1,270 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  /* Типографика */
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.navigation-item {
+  /* Типографика */
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.link {
+  /* Типографика */
+  color: #000000;
+  text-decoration: none;
+}
+
+.button {
+  /* Типографика */
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+
+  /* Оформление */
+  background-color: #756157;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.block-headline {
+  /* Типографика */
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.block-subheadline {
+  /* Типографика */
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.headline {
+  /* Типографика */
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.headline-about {
+  /* Типографика */
+  color: #FFFFFF;
+
+  /* Оформление */
+  background-color: #82B3D3;
+}
+
+.subheadline {
+  /* Типографика */
+  color: #333333;
+}
+
+.subheadline-about {
+  /* Типографика */
+  color: #FFFFFF;
+
+  /* Оформление */
+  background-color: #82B3D3;
+}
+
+.button-interest {
+  /* Типографика */
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.headline-interest {
+  /* Типографика */
+  text-transform: uppercase;
+}
+
+.headline-subscribe-index {
+  /* Типографика */
+  color: #FFFFFF;
+  text-transform: uppercase;
+
+  /* Оформление */
+  background-color: #000000;
+}
+
+.subheadline-subscribe-index {
+  /* Типографика */
+  color: #FFFFFF;
+
+  /* Оформление */
+  background-color: #000000;
+}
+
+.button-subscribe {
+  /* Типографика */
+  font-size: 20px;
+  line-height: 36px;
+
+  /* Оформление */
+  background-color: #82B3D3;
+}
+
+.input::placeholder {
+  /* Типографика */
+  line-height: 24px;
+
+  /* Оформление */
+  opacity: 60%;
+}
+
+.phone {
+  /* Типографика */
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.page-headline {
+  /* Типографика */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #FFFFFF;
+}
+
+.breadcrumbs {
+  /* Типографика */
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.navigation-list {
+  list-style: none;
+}
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-link {
+  /* Типографика */
+  font-size: 20px;
+  line-height: 36px;
+  color: #FFFFFF;
+
+  /* Оформление */
+  background-color: #82B3D3;
+}
+
+.pagination-link-current {
+  /* Типографика */
+  color: #000000;
+
+  /* Оформление */
+  background-color: #F2F2F2;
+}
+
+.hotel-headline {
+  /* Типографика */
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.hotel-description {
+  /* Типографика */
+  color: #333333;
+}
+
+.favouites-button {
+  /* Оформление */
+  background-color: #82B3D3;
+}
+
+.hotel-rating {
+  /* Типографика */
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.legend {
+  /* Типографика */
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #FFFFFF;
+
+  /* Оформление */
+  background-color: #000000;
+}
+
+.settings-item {
+  /* Типографика */
+  line-height: 23px;
+  color: #FFFFFF;
+
+  /* Оформление */
+  background-color: #000000;
+}
+
+.apply-button {
+  /* Оформление */
+  background-color: #82B3D3;
+}
+
+.cancel-button {
+  /* Оформление */
+  background-color: transparent;
+}
+
+.option {
+  /* Типографика */
+  color: #333333;
+}
+
+.subscribe {
+  /* Типографика */
+  text-align: center;
+
+  /* Оформление */
+  background-image: url("/images/subscribe-background.jpg");
+  background-repeat: no-repeat;
+}
+
+.interest {
+  /* Типографика */
+  text-align: center;
+}
+
+.price-input::placeholder {
+  /* Типографика */
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.first-screen {
+  /* Оформление */
+  background-image: url("/images/hotels-background.jpg");
+  background-repeat: no-repeat;
+}

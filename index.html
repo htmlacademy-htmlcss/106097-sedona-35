@@ -5,39 +5,40 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 
   <body>
     <header>
       <img src="images/sedona/landscape.jpg" width="1200" height="485" alt="Каньон Седоны">
       <hgroup>
-        <h1>Седона — небольшой городок в Аризоне,
+        <h1 class="block-headline">Седона — небольшой городок в Аризоне,
           заслуживающий большего!</h1>
-        <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+        <p class="block-subheadline">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </hgroup>
       <nav class="navigation">
         <h2 class="visually-hidden">Навигация</h2>
         <a class="logo"><img src="images/logos/logo.svg" alt="Логотип Седоны"></a>
         <menu class="navigation-list">
-          <li class="navigation-item"><a class="navigation-link navigation-link-current" href="#">Главная</a></li>
-          <li class="navigation-item"><a class="navigation-link" href="#">О Седоне</a></li>
-          <li class="navigation-item"><a class="navigation-link" href="hotels.html">Гостиницы</a></li>
+          <li class="navigation-item"><a class="link navigation-link navigation-link-current" href="#">Главная</a></li>
+          <li class="navigation-item"><a class="link navigation-link" href="#">О Седоне</a></li>
+          <li class="navigation-item"><a class="link navigation-link" href="hotels.html">Гостиницы</a></li>
         </menu>
         <ul class="navigation-list navigation-user">
           <li class="navigation-item"><a class="navigation-link" href="#"><span class="visually-hidden">Поиск</span></a>
           </li>
           <li class="navigation-item"><a class="navigation-link" href="#"><span
                 class="visually-hidden">Избранное</span></a></li>
-          <li class="navigation-item"><a class="navigation-link" href="#"><span>Хочу сюда</span></a></li>
+          <li class="navigation-item"><a class="navigation-link button button-want" href="#"><span>Хочу сюда</span></a></li>
         </ul>
       </nav>
     </header>
     <main>
       <section>
         <h2 class="visually-hidden">О седоне</h2>
-        <hgroup>
-          <h3>Настоящий городок</h3>
-          <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+        <hgroup class="about">
+          <h3 class="headline headline-about">Настоящий городок</h3>
+          <p class="subheadline subheadline-about">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
         </hgroup>
         <img src="images/sedona/town.jpg" width="800" height="384" alt="Здания в Седоне">
       </section>
@@ -46,20 +47,20 @@
         <ul>
           <li>
             <hgroup>
-              <h3>Небольшая площадь</h3>
-              <p>Все достопримечательности находятся очень близко</p>
+              <h3 class="headline">Небольшая площадь</h3>
+              <p class="subheadline">Все достопримечательности находятся очень близко</p>
             </hgroup>
           </li>
           <li>
             <hgroup>
-              <h3>Красивая дорога</h3>
-              <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+              <h3 class="headline">Красивая дорога</h3>
+              <p class="subheadline">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
             </hgroup>
           </li>
           <li>
             <hgroup>
-              <h3>Мало туристов</h3>
-              <p>Большинство едет в Гранд Каньон и толпится там</p>
+              <h3 class="headline">Мало туристов</h3>
+              <p class="subheadline">Большинство едет в Гранд Каньон и толпится там</p>
             </hgroup>
           </li>
         </ul>
@@ -68,8 +69,8 @@
         <h2 class="visually-hidden">Достопримечательности</h2>
         <img src="images/sedona/diablo-bridge.jpg" width="800" height="384" alt="Мост Дьявола">
         <hgroup>
-          <h3>Там есть мост дьявола</h3>
-            <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+          <h3 class="headline headline-about">Там есть мост дьявола</h3>
+            <p class="subheadline subheadline-about">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
         </hgroup>
       </section>
       <section>
@@ -77,38 +78,37 @@
         <ul>
           <li>
             <hgroup>
-              <h3>Жильё</h3>
-              <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+              <h3 class="headline">Жильё</h3>
+              <p class="subheadline">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
             </hgroup>
           </li>
           <li>
             <hgroup>
-              <h3>Еда</h3>
-              <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+              <h3 class="headline">Еда</h3>
+              <p class="subheadline">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
             </hgroup>
           </li>
           <li>
             <hgroup>
-              <h3>Сувениры</h3>
-              <p>Не только китайского, но и настоящего местного производства!</p>
+              <h3 class="headline">Сувениры</h3>
+              <p class="subheadline">Не только китайского, но и настоящего местного производства!</p>
             </hgroup>
           </li>
         </ul>
       </section>
-      <article>
-        <h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
-        <span>Заинтересовались?</span>
-        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <a href="hotels.html">Поиск гостиницы в Седоне</a>
+      <article class="interest">
+        <h2 class="block-headline headline-interest">Заинтересовались?</h2>
+        <p class="subheadline-block">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <a class="button button-interest" href="hotels.html">Поиск гостиницы в Седоне</a>
       </article>
-      <aside>
+      <aside class="subscribe">
         <hgroup>
-          <h2>Подпишитесь на рассылку</h2>
-          <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+          <h2 class="headline-block headline-subscribe-index">Подпишитесь на рассылку</h2>
+          <p class="subheadline-block subheadline-subscribe-index">Только полезная информация и никакого спама, честное бойскаутское!</p>
         </hgroup>
         <form action="https://echo.htmlacademy.ru">
-          <input type="email" placeholder="Ваш e-mail">
-          <button>Подписаться</button>
+          <input class="input" type="email" placeholder="Ваш e-mail">
+          <button class="button button-subscribe">Подписаться</button>
         </form>
       </aside>
     </main>
@@ -121,7 +121,7 @@
         <li class="social-item"><a class="social-link social-link-vk" href="https://www.youtube.com/user/htmlacademyru"
             rel="nofollow"><span class="visually-hidden">Youtube</span></a></li>
       </ul>
-      <address><a href="tel:78128121212">+7 (812) 812-12-12</a></address>
+      <address><a class="link phone" href="tel:78128121212">+7 (812) 812-12-12</a></address>
       <a href="https://htmlacademy.ru" rel="nofollow"><img src="images/logos/html-academy.svg" alt="HTML Academy"></a>
     </footer>
   </body>
