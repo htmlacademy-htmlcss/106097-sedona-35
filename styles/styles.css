@@ -14,8 +14,13 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   /* Блочная модель */
+  height: 100%;
   margin: 0;
   padding: 0 40px;
 
@@ -31,7 +36,11 @@ body {
 
 .container {
   /* Блочная модель */
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
   width: 1200px;
+  min-height: 100%;
 
   /* Оформление */
   background-color: #FFFFFF;
