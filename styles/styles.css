@@ -15,11 +15,25 @@
 }
 
 body {
+  /* Блочная модель */
+  margin: 0;
+  padding: 0 40px;
+
   /* Типографика */
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: #000000;
+
+  /* Оформление */
+  background-color: #F2F2F2;
+}
+
+.container {
+  /* Блочная модель */
+  width: 1200px;
+
+  /* Оформление */
   background-color: #FFFFFF;
 }
 
