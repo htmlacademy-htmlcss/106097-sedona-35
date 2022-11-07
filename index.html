@@ -11,12 +11,6 @@
   <body>
     <div class="container">
       <header>
-        <img src="images/sedona/landscape.jpg" width="1200" height="485" alt="Каньон Седоны">
-        <hgroup>
-          <h1 class="block-headline">Седона — небольшой городок в Аризоне,
-            заслуживающий большего!</h1>
-          <p class="block-subheadline">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
-        </hgroup>
         <nav class="navigation">
           <h2 class="visually-hidden">Навигация</h2>
           <a class="logo"><img src="images/logos/logo.svg" alt="Логотип Седоны"></a>
@@ -26,13 +20,13 @@
             <li class="navigation-item"><a class="link navigation-link" href="#">О Седоне</a></li>
             <li class="navigation-item"><a class="link navigation-link" href="hotels.html">Гостиницы</a></li>
           </menu>
-          <ul class="navigation-list navigation-user">
-            <li class="navigation-item"><a class="navigation-link" href="#"><span
+          <ul class="navigation-user">
+            <li class="navigation-user-item"><a class="navigation-link" href="#"><span
                   class="visually-hidden">Поиск</span></a>
             </li>
-            <li class="navigation-item"><a class="navigation-link" href="#"><span
+            <li class="navigation-user-item"><a class="navigation-link" href="#"><span
                   class="visually-hidden">Избранное</span></a></li>
-            <li class="navigation-item"><a class="navigation-link button button-want" href="#"><span>Хочу
+            <li class="navigation-user-item"><a class="navigation-link button button-want" href="#"><span>Хочу
                   сюда</span></a>
             </li>
           </ul>
@@ -40,88 +34,99 @@
       </header>
       <main>
         <section>
+          <img src="images/sedona/landscape.jpg" width="1200" height="485" alt="Каньон Седоны">
+          <hgroup class="hero">
+            <h1 class="block-headline">Седона — небольшой городок в Аризоне,
+              заслуживающий большего!</h1>
+            <p class="block-subheadline">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+          </hgroup>
+        </section>
+        <section class="point">
           <h2 class="visually-hidden">О седоне</h2>
-          <hgroup class="about">
-            <h3 class="headline headline-about">Настоящий городок</h3>
-            <p class="subheadline subheadline-about">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+          <hgroup class="point-text">
+            <h3 class="headline">Настоящий городок</h3>
+            <p class="subheadline">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
           </hgroup>
           <img src="images/sedona/town.jpg" width="800" height="384" alt="Здания в Седоне">
         </section>
         <section>
           <h2 class="visually-hidden">Преимущества</h2>
-          <ul>
-            <li>
-              <hgroup>
+          <ul class="advantages-list">
+            <li class="advantages-item">
+              <hgroup class="advantages-text">
                 <h3 class="headline">Небольшая площадь</h3>
                 <p class="subheadline">Все достопримечательности находятся очень близко</p>
               </hgroup>
             </li>
-            <li>
-              <hgroup>
+            <li class="advantages-item">
+              <hgroup class="advantages-text">
                 <h3 class="headline">Красивая дорога</h3>
                 <p class="subheadline">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
               </hgroup>
             </li>
-            <li>
-              <hgroup>
+            <li class="advantages-item">
+              <hgroup class="advantages-text">
                 <h3 class="headline">Мало туристов</h3>
                 <p class="subheadline">Большинство едет в Гранд Каньон и толпится там</p>
               </hgroup>
             </li>
           </ul>
         </section>
-        <section>
+        <section class="point">
           <h2 class="visually-hidden">Достопримечательности</h2>
           <img src="images/sedona/diablo-bridge.jpg" width="800" height="384" alt="Мост Дьявола">
-          <hgroup>
-            <h3 class="headline headline-about">Там есть мост дьявола</h3>
-            <p class="subheadline subheadline-about">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+          <hgroup class="point-text">
+            <h3 class="headline">Там есть мост дьявола</h3>
+            <p class="subheadline">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           </hgroup>
         </section>
         <section>
           <h2 class="visually-hidden">Что есть в Седоне</h2>
-          <ul>
-            <li>
-              <hgroup>
+          <ul class="reco-list">
+            <li class="reco-item">
+              <hgroup class="reco-text">
                 <h3 class="headline">Жильё</h3>
-                <p class="subheadline">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+                <p class="subheadline">Рекомендуем пожить <br>в настоящем мотеле, <br>всё как в кино!</p>
               </hgroup>
             </li>
-            <li>
+            <li class="reco-item">
               <hgroup>
                 <h3 class="headline">Еда</h3>
-                <p class="subheadline">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+                <p class="subheadline">Всегда заказывайте <br>топовый фирменный бургер, <br>вы не разочаруетесь!</p>
               </hgroup>
             </li>
-            <li>
+            <li class="reco-item">
               <hgroup>
                 <h3 class="headline">Сувениры</h3>
-                <p class="subheadline">Не только китайского, но и настоящего местного производства!</p>
+                <p class="subheadline">Не только китайского, <br>но и настоящего местного производства!</p>
               </hgroup>
             </li>
           </ul>
         </section>
         <article class="interest">
-          <h2 class="block-headline headline-interest">Заинтересовались?</h2>
-          <p class="subheadline-block">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц
-            в
-            Седоне</p>
+          <hgroup>
+            <h2 class="block-headline headline-interest">Заинтересовались?</h2>
+            <p class="subheadline-interest">Укажите предполагаемые даты поездки, <br>и мы покажем вам лучшие предложения
+              гостиниц
+              в
+              Седоне</p>
+          </hgroup>
           <a class="button button-interest" href="hotels.html">Поиск гостиницы в Седоне</a>
         </article>
-        <aside class="subscribe">
+        <aside class="subscribe subscribe-index">
           <hgroup>
-            <h2 class="headline-block headline-subscribe-index">Подпишитесь на рассылку</h2>
-            <p class="subheadline-block subheadline-subscribe-index">Только полезная информация и никакого спама,
+            <h2 class="headline-block headline-subscribe">Подпишитесь на рассылку</h2>
+            <p class="subheadline-block subheadline-subscribe">Только полезная информация и никакого спама,
               честное
               бойскаутское!</p>
           </hgroup>
-          <form action="https://echo.htmlacademy.ru">
-            <input class="input" type="email" placeholder="Ваш e-mail">
+          <form class="subscription-form" action="https://echo.htmlacademy.ru">
+            <input class="email" type="email" placeholder="Ваш e-mail">
             <button class="button button-subscribe">Подписаться</button>
           </form>
         </aside>
       </main>
-      <footer>
+      <footer class="page-footer catalog-wrapper">
         <ul class="social-list">
           <li class="social-item"><a class="social-link social-link-vk" href="https://vk.com/htmlacademy"
               rel="nofollow"><span class="visually-hidden">Вконтакте</span></a></li>
@@ -131,7 +136,7 @@
               href="https://www.youtube.com/user/htmlacademyru" rel="nofollow"><span
                 class="visually-hidden">Youtube</span></a></li>
         </ul>
-        <address><a class="link phone" href="tel:78128121212">+7 (812) 812-12-12</a></address>
+        <address class="phone"><a class="link" href="tel:78128121212">+7 (812) 812-12-12</a></address>
         <a href="https://htmlacademy.ru" rel="nofollow"><img src="images/logos/html-academy.svg" alt="HTML Academy"></a>
       </footer>
     </div>
