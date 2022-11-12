@@ -209,6 +209,10 @@ body {
 }
 
 .social-list {
+  /* Блочная модель */
+  display: flex;
+  flex-wrap: wrap;
+
   /* Оформление */
   list-style-type: none;
 }
@@ -471,12 +475,13 @@ body {
 
 .breadcrumbs {
   /* Блочная модель */
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   margin-bottom: 40px;
 
   /* Типографика */
-  display: flex;
   font-size: 16px;
 
   /* Оформление */
@@ -660,6 +665,8 @@ select[aria-label="Сортировка"] {
 
 .hotel {
   /* Блочная модель */
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   width: 340px;
   padding: 20px;
@@ -676,6 +683,9 @@ select[aria-label="Сортировка"] {
 }
 
 .hotel-headline {
+  /* Блочная модель */
+  flex-grow: 1;
+
   /* Типографика */
   font-size: 18px;
   line-height: 21px;
@@ -727,6 +737,7 @@ select[aria-label="Сортировка"] {
 .pagination-list {
   /* Блочная модель */
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   margin-bottom: 60px;
