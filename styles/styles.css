@@ -88,6 +88,28 @@ body {
   cursor: pointer;
 }
 
+.button:hover,
+.button:focus {
+  /* Оформление */
+  background-color: #615048;
+}
+
+.button:active {
+  /* Типографика */
+  color: rgba(255, 255, 255, 0.3);
+
+  /* Оформление */
+  background-color: #756157;
+}
+
+.button:disabled {
+  /* Типографика */
+  color: #FFFFFF;
+
+  /* Оформление */
+  background-color: #E5E5E5;
+}
+
 .block-headline {
   /* Блочная модель */
   display: inline-block;
@@ -343,6 +365,17 @@ img.logo {
   height: 100%;
 }
 
+.social-icon:hover,
+.social-icon:focus {
+  /* Оформление */
+  fill: #68A2CA;
+}
+
+.social-icon:active {
+  /* Оформление */
+  fill: rgba(104, 162, 202, 0.3);
+}
+
 .phone {
   /* Блочная модель */
   margin: 0 auto;
@@ -351,6 +384,17 @@ img.logo {
   font-size: 40px;
   line-height: 40px;
   font-style: normal;
+}
+
+.phone .link:hover,
+.phone .link:focus {
+  /* Типографика */
+  color: #756157;
+}
+
+.phone .link:active {
+  /* Типографика */
+  color: rgba(117, 97, 87, 0.3);
 }
 
 
@@ -770,7 +814,7 @@ img.logo {
   padding-top: 56px;
 }
 
-.apply-button {
+.button.apply-button {
   /* Блочная модель */
   margin-bottom: 32px;
   padding: 0 50px;
@@ -779,12 +823,36 @@ img.logo {
   background-color: #82B3D3;
 }
 
-.cancel-button {
+.button.cancel-button {
   /* Блочная модель */
   padding: 0 50px;
 
   /* Оформление */
   background-color: transparent;
+}
+
+.button.cancel-button:hover {
+  /* Оформление */
+  opacity: 60%;
+}
+
+.button.cancel-button:focus {
+  /* Оформление */
+  border: 3px solid #83B3D3;
+  opacity: 100%;
+}
+
+.button.cancel-button:active {
+  /* Типографика */
+  color: rgba(255, 255, 255, 0.3);
+
+  /* Оформление */
+  border: none;
+}
+
+.button.cancel-button:disabled {
+  /* Оформление */
+  opacity: 10%;
 }
 
 .option {
@@ -821,8 +889,23 @@ select[aria-label="Сортировка"] {
   color: #333333;
 
   /* Оформление */
-  border: 1px solid #E5E5E5;
+  border: 2px solid #E5E5E5;
   border-radius: 4px;
+}
+
+select[aria-label="Сортировка"]:hover, select[aria-label="Сортировка"]:focus {
+  /* Оформление */
+  border-color: #68A2CA;
+}
+
+select[aria-label="Сортировка"]:active {
+  /* Оформление */
+  border-color: #3F5E72;
+}
+
+select[aria-label="Сортировка"]:disabled {
+  /* Оформление */
+  border-color: rgba(0, 0, 0, 0.3);
 }
 
 .catalolg-view {
@@ -844,6 +927,21 @@ select[aria-label="Сортировка"] {
   background-position: center;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
+}
+
+.view:hover {
+  /* Оформление */
+  border-color: #000000;
+}
+
+.view:focus {
+  /* Оформление */
+  border-color: #68A2CA;
+}
+
+.view:active {
+  /* Оформление */
+  border-color: #000000;
 }
 
 .view.view-current {
@@ -954,14 +1052,53 @@ select[aria-label="Сортировка"] {
   line-height: 36px;
 }
 
-.favouites-button {
+.button.favouites-button {
   /* Оформление */
   background-color: #82B3D3;
 }
 
-.favouites-button-active {
+.button.favouites-button:hover,
+.button.favouites-button:focus,
+.button.button-subscribe:hover,
+.button.button-subscribe:focus,
+.button.apply-button:hover,
+.button.apply-button:focus {
+  /* Оформление */
+  background-color: #68A2CA;
+}
+
+.button.favouites-button:active,
+.button.button-subscribe:active,
+.button.apply-button:active {
+  /* Типографика */
+  color:rgba(255, 255, 255, 0.3);
+
+  /* Оформление */
+  background-color: #82B3D3;
+}
+
+.button.favouites-button-active {
   /* Оформление */
   background-color: #7DB54F;
+}
+
+.button.favouites-button-active:hover,
+.button.favouites-button-active:focus {
+  /* Оформление */
+  background-color: #6C9E42;
+}
+
+.button.favouites-button-active:active {
+  /* Типографика */
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button.favouites-button-active:disabled {
+  /* Типографика */
+  color: #FFFFFF;
+
+  /* Оформление */
+  background-color: #E5E5E5;
 }
 
 .hotel-rating {
@@ -1010,6 +1147,7 @@ select[aria-label="Сортировка"] {
 
   /* Типографика */
   text-align: center;
+  color: #FFFFFF;
 
   /* Оформление */
   background-color: #82B3D3;
@@ -1021,12 +1159,32 @@ select[aria-label="Сортировка"] {
   margin-right: 8px;
 }
 
-.pagination-item-current {
+.pagination-item:not(.pagination-item-current, .pagination-item-blank):hover,
+pagination-item:not(.pagination-item-current, .pagination-item-blank):focus {
+  /* Оформление */
+  background-color: #68A2CA;
+}
+
+.pagination-item:not(.pagination-item-current, .pagination-item-blank):active {
+  /* Типографика */
+  color: rgba(255, 255, 255, 0.3);
+
+  /* Оформление */
+  background-color: #82B3D3;
+}
+
+.pagination-item.pagination-item-current {
+  /* Типографика */
+  color: #000000;
+
   /* Оформление */
   background-color: #F2F2F2;
 }
 
 .pagination-item-blank {
+  /* Типографика */
+  color: #000000;
+
   /* Оформление */
   background-color: #FFFFFF;
 }
@@ -1040,13 +1198,21 @@ select[aria-label="Сортировка"] {
   /* Типографика */
   font-size: 20px;
   font-weight: 700;
-  color: #FFFFFF;
-
-  /* Оформление */
-  background-color: #82B3D3;
+  color: inherit;
 }
 
-.pagination-link-current {
-  /* Типографика */
-  color: #000000;
+.html-academy:hover {
+  /* Оформление */
+  fill: #756157;
+}
+
+.html-academy:hover,
+.html-academy:focus {
+  /* Оформление */
+  fill: #756157;
+}
+
+.html-academy:active {
+  /* Оформление */
+  fill: rgba(117, 97, 87, 0.3);
 }
