@@ -682,6 +682,11 @@ select[aria-label="Сортировка"] {
   margin-bottom: 16px;
 }
 
+.hotel-image {
+  /* Оформление */
+ object-fit: contain;
+}
+
 .hotel-headline {
   /* Блочная модель */
   flex-grow: 1;
