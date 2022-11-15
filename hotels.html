@@ -46,30 +46,41 @@
             <form class="filter" action="https://echo.htmlacademy.ru" method="post">
               <fieldset class="fieldset">
                 <legend class="legend">Инфраструктура:</legend>
-                <label class="settings-item" for="pool"><input type="checkbox" name="pool" id="pool"
-                    checked>Бассейн</label>
-                <label class="settings-item" for="parking"><input type="checkbox" name="parking" id="parking"
-                    checked>Парковка</label>
-                <label class="settings-item" for="wi-fi"><input type="checkbox" name="wi-fi" id="wi-fi">Wi-Fi</label>
+                <label class="settings-item" for="pool"><input class="visually-hidden" type="checkbox" name="pool"
+                    id="pool" checked><span class="mark checkbox-mark"></span><span
+                    class="control-label">Бассейн</span></label>
+                <label class="settings-item" for="parking"><input class="visually-hidden" type="checkbox" name="parking"
+                    id="parking" checked><span class="mark checkbox-mark"></span><span
+                    class="control-label">Парковка</span></label>
+                <label class="settings-item" for="wi-fi"><input class="visually-hidden" type="checkbox" name="wi-fi"
+                    id="wi-fi"><span class="mark checkbox-mark"></span><span class="control-label">Wi-Fi</span></label>
               </fieldset>
               <fieldset class="fieldset">
                 <legend class="legend">Тип Жилья:</legend>
-                <label class="settings-item" for="hotel"><input type="radio" name="accomodation-type" value="hotel"
-                    id="hotel" checked>Гостиница</label>
-                <label class="settings-item" for="motel"><input type="radio" name="accomodation-type" value="motel"
-                    id="motel">Мотель</label>
-                <label class="settings-item" for="apartment"><input type="radio" name="accomodation-type"
-                    value="apartment" id="apartment">Апартаменты</label>
+                <label class="settings-item" for="hotel"><input class="visually-hidden" type="radio"
+                    name="accomodation-type" value="hotel" id="hotel" checked><span class="mark radio-mark"></span><span
+                    class="control-label">Гостиница</span></label>
+                <label class="settings-item" for="motel"><input class="visually-hidden" type="radio"
+                    name="accomodation-type" value="motel" id="motel"><span class="mark radio-mark"></span><span
+                    class="control-label">Мотель</span></label>
+                <label class="settings-item" for="apartment"><input class="visually-hidden" type="radio"
+                    name="accomodation-type" value="apartment" id="apartment"><span class="mark radio-mark"></span><span
+                    class="control-label">Апартаменты</span></label>
               </fieldset>
               <fieldset class="fieldset">
                 <legend class="legend">Стоимость, ₽:</legend>
                 <div class="price-inputs">
-                  <input class="price-input min-price" type="number" name="min-price" placeholder="0" min="0"
+                  <input class="field price-input min-price" type="number" name="min-price" placeholder="0" min="0"
                     max="9000">
-                  <input class="price-input max-price" type="number" name="max-price" placeholder="9000" min="0"
+                  <input class="field price-input max-price" type="number" name="max-price" placeholder="9000" min="0"
                     max="9000">
                 </div>
-                <input type="range" name="price-range" min="0" max="9000" step="100">
+                <div class="range-scale">
+                  <div class="range-bar">
+                    <button class="range-toggle toggle-min" type="button"></button>
+                    <button class="range-toggle toggle-max" type="button"></button>
+                  </div>
+                </div>
               </fieldset>
               <fieldset class="fieldset filter-buttons">
                 <button class="button apply-button" type="submit">Применить</button>
@@ -82,10 +93,12 @@
           <h2 class="visually-hidden">Результаты поиска</h2>
           <div class="search-info">
             <p class="block-headline search-headline">Найдено гостиниц: 38</p>
-            <select aria-label="Сортировка">
-              <option class="option" value="asc">Сначала дешевые</option>
-              <option class="option" value="desc">Сначала дорогие</option>
-            </select>
+            <div class="select">
+              <select class="select-control" aria-label="Сортировка">
+                <option class="option" value="asc">Сначала дешевые</option>
+                <option class="option" value="desc">Сначала дорогие</option>
+              </select>
+            </div>
             <aside class="catalolg-view">
               <h3 class="visually-hidden">Тип отображения</h3>
               <a class="view tile-view view-current" href="#"><span class="visually-hidden">Плитка</span></a>
@@ -230,7 +243,7 @@
               бойскаутское!</p>
           </hgroup>
           <form class="subscription-form" action="https://echo.htmlacademy.ru">
-            <input class="email" type="email" placeholder="Ваш e-mail">
+            <input class="field email" type="email" placeholder="Ваш e-mail" required>
             <button class="button button-subscribe">Подписаться</button>
           </form>
         </aside>
@@ -238,21 +251,21 @@
       <footer class="page-footer catalog-wrapper">
         <ul class="social-list">
           <li class="social-item"><a class="social-link" href="https://vk.com/htmlacademy" rel="nofollow"><svg
-                aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="25"
-                height="14" fill="none">
+                aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="25" height="14"
+                fill="none">
                 <path class="social-icon" fill="#83B3D3" fill-rule="evenodd"
                   d="M23.95.95c.17-.55 0-.95-.8-.95h-2.62c-.67 0-.98.35-1.14.73 0 0-1.34 3.2-3.23 5.27-.61.6-.89.8-1.22.8-.17 0-.42-.2-.42-.74V.95c0-.66-.19-.95-.74-.95H9.65c-.42 0-.67.3-.67.6 0 .61.95.76 1.05 2.5v3.8c0 .84-.16.99-.5.99-.88 0-3.05-3.21-4.33-6.89-.25-.71-.5-1-1.17-1H1.4C.65 0 .5.35.5.73c0 .68.89 4.07 4.14 8.55C6.81 12.34 9.87 14 12.65 14c1.67 0 1.88-.37 1.88-1v-2.32c0-.73.16-.88.68-.88.4 0 1.06.2 2.62 1.67C19.61 13.22 19.9 14 20.9 14h2.63c.75 0 1.13-.37.91-1.1-.24-.72-1.09-1.77-2.22-3.02-.6-.7-1.53-1.47-1.8-1.86-.4-.49-.28-.7 0-1.14 0 0 3.2-4.43 3.53-5.93Z"
                   clip-rule="evenodd" />
               </svg><span class="visually-hidden">Вконтакте</span></a></li>
           <li class="social-item"><a class="social-link social-link-vk" href="https://t.me/htmlacademy"
-              rel="nofollow"><svg aria-hidden="true" focusable="false"
-                xmlns="http://www.w3.org/2000/svg" width="19" height="16" fill="none">
+              rel="nofollow"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="19"
+                height="16" fill="none">
                 <path class="social-icon" fill="#83B3D3"
                   d="M17.29.1 1.34 6.25c-1.09.43-1.08 1.04-.2 1.31l4.1 1.28 9.47-5.98c.44-.27.85-.12.52.18L7.55 9.96l-.28 4.22c.41 0 .6-.19.83-.41l1.99-1.93 4.13 3.05c.77.42 1.31.2 1.5-.7l2.72-12.8C18.72.27 18-.23 17.29.09Z" />
               </svg><span class="visually-hidden">Telegram</span></a></li>
           <li class="social-item"><a class="social-link" href="https://www.youtube.com/user/htmlacademyru"
-              rel="nofollow"><svg aria-hidden="true" focusable="false"
-                xmlns="http://www.w3.org/2000/svg" width="23" height="18" fill="none">
+              rel="nofollow"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="23"
+                height="18" fill="none">
                 <path class="social-icon" fill="#83B3D3"
                   d="M19.1.5H3.68C1.81.5.5 2.1.5 3.9V14c0 1.9 1.31 3.5 3.17 3.5h15.66c1.64 0 3.17-1.6 3.17-3.4V3.9C22.28 2.1 20.97.5 19.1.5ZM8.17 13.04V4.96L15.5 9l-7.34 4.04Z" />
               </svg><span class="visually-hidden">Youtube</span></a></li>
