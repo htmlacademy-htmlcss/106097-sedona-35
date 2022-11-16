@@ -23,7 +23,7 @@
   padding: 0;
   white-space: nowrap;
   -webkit-clip-path: inset(100%);
-          clip-path: inset(100%);
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -71,7 +71,7 @@ body {
 .button {
   /* Блочная модель */
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   display: block;
   min-width: 140px;
   min-height: 36px;
@@ -287,10 +287,10 @@ img.logo {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 0;
   padding: 0;
   margin-right: auto;
@@ -338,7 +338,7 @@ img.logo {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
 
@@ -383,11 +383,11 @@ img.logo {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 20px;
   height: 20px;
 
@@ -414,13 +414,13 @@ img.logo {
 .page-footer {
   /* Блочная модель */
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 25px 0 30px 0;
 }
 
@@ -430,10 +430,10 @@ img.logo {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 0;
 
   /* Оформление */
@@ -452,11 +452,11 @@ img.logo {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 100%;
   height: 100%;
 }
@@ -549,13 +549,13 @@ img.logo {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -ms-flex-preferred-size: 400px;
-      flex-basis: 400px;
+  flex-basis: 400px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding-top: 92px;
   padding-bottom: 111px;
 
@@ -582,7 +582,7 @@ img.logo {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
 
@@ -600,13 +600,13 @@ img.logo {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-preferred-size: 400px;
-      flex-basis: 400px;
+  flex-basis: 400px;
   padding-top: 103px;
   padding-bottom: 121px;
 }
@@ -642,7 +642,7 @@ img.logo {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
 
@@ -660,13 +660,13 @@ img.logo {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-preferred-size: 400px;
-      flex-basis: 400px;
+  flex-basis: 400px;
   padding-top: 80px;
   padding-bottom: 81px;
 }
@@ -709,17 +709,17 @@ img.logo {
 .interest {
   /* Блочная модель */
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding-top: 96px;
   padding-bottom: 96px;
   min-height: 406px;
@@ -761,17 +761,17 @@ img.logo {
 .subscribe {
   /* Блочная модель */
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding-top: 70px;
   padding-bottom: 110px;
 
@@ -824,7 +824,7 @@ img.logo {
 .email {
   /* Блочная модель */
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   min-width: 452px;
   min-height: 52px;
   padding: 14px 20px;
@@ -876,7 +876,7 @@ img.logo {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   margin-bottom: 40px;
@@ -894,8 +894,8 @@ img.logo {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding-right: 16.39px;
   margin-right: 10px;
 
@@ -936,8 +936,8 @@ img.logo {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin: 0;
   margin-right: 70px;
   padding: 0;
@@ -967,7 +967,7 @@ img.logo {
 .price-input {
   /* Блочная модель */
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 143px;
   height: 48px;
   padding: 12px 50px 12px 20px;
@@ -1003,7 +1003,7 @@ img.logo {
 .price-input::-webkit-outer-spin-button,
 .price-input::-webkit-inner-spin-button {
   -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
   margin: 0;
 }
 
@@ -1168,7 +1168,7 @@ input[type="checkbox"]:active + .mark {
 .range-toggle:hover {
   /* Оформление */
   -webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
-          box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
 }
 
 .range-toggle:focus {
@@ -1180,7 +1180,7 @@ input[type="checkbox"]:active + .mark {
   /* Оформление */
   outline: 2px solid #83B3D3;
   -webkit-box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.4);
-          box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.4);
 }
 
 .toggle-min {
@@ -1284,8 +1284,8 @@ input[type="checkbox"]:active + .mark {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-bottom: 40px;
 }
 
@@ -1302,8 +1302,8 @@ input[type="checkbox"]:active + .mark {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 
   /* Блочная модель */
   width: 338px;
@@ -1327,8 +1327,8 @@ input[type="checkbox"]:active + .mark {
   border: 2px solid #E5E5E5;
   border-radius: 4px;
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .select:hover .select-control,
@@ -1356,13 +1356,13 @@ select:disabled .select-control {
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
   -ms-grid-row-align: top;
-      align-self: top;
+  align-self: top;
 }
 
 .view {
   /* Блочная модель */
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   min-width: 48px;
   min-height: 48px;
 
@@ -1444,10 +1444,10 @@ select:disabled .select-control {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 340px;
   padding: 20px;
 
@@ -1465,14 +1465,14 @@ select:disabled .select-control {
 .hotel-image {
   /* Оформление */
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .hotel-headline {
   /* Блочная модель */
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   min-height: 28px;
 
   /* Типографика */
@@ -1486,10 +1486,10 @@ select:disabled .select-control {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 
   /* Типографика */
   color: #333333;
@@ -1506,8 +1506,8 @@ select:disabled .select-control {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .hotel-btn {
@@ -1576,11 +1576,11 @@ select:disabled .select-control {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 
   /* Типографика */
   font-size: 16px;
@@ -1593,11 +1593,11 @@ select:disabled .select-control {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   min-width: 140px;
   min-height: 37px;
   margin: 0;
@@ -1627,7 +1627,7 @@ select:disabled .select-control {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   margin-bottom: 60px;
@@ -1740,7 +1740,7 @@ pagination-item:not(.pagination-item-current, .pagination-item-blank):focus {
 .modal {
   /* Позиционирование */
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   position: relative;
 
   /* Блочная модель */
@@ -1751,7 +1751,7 @@ pagination-item:not(.pagination-item-current, .pagination-item-blank):focus {
   /* Оформление */
   background-color: #FFFFFF;
   -webkit-box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
   border-radius: 30px;
 }
 
@@ -1819,8 +1819,8 @@ pagination-item:not(.pagination-item-current, .pagination-item-blank):focus {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .modal-row {
@@ -1983,28 +1983,32 @@ pagination-item:not(.pagination-item-current, .pagination-item-blank):focus {
   position: relative;
 }
 
-.adults-input::-webkit-input-placeholder, .children-input::-webkit-input-placeholder {
+.adults-input::-webkit-input-placeholder,
+.children-input::-webkit-input-placeholder {
   /* Типографика */
   text-align: center;
   color: #000000;
   opacity: 100%;
 }
 
-.adults-input::-moz-placeholder, .children-input::-moz-placeholder {
+.adults-input::-moz-placeholder,
+.children-input::-moz-placeholder {
   /* Типографика */
   text-align: center;
   color: #000000;
   opacity: 100%;
 }
 
-.adults-input:-ms-input-placeholder, .children-input:-ms-input-placeholder {
+.adults-input:-ms-input-placeholder,
+.children-input:-ms-input-placeholder {
   /* Типографика */
   text-align: center;
   color: #000000;
   opacity: 100%;
 }
 
-.adults-input::-ms-input-placeholder, .children-input::-ms-input-placeholder {
+.adults-input::-ms-input-placeholder,
+.children-input::-ms-input-placeholder {
   /* Типографика */
   text-align: center;
   color: #000000;
@@ -2030,11 +2034,11 @@ pagination-item:not(.pagination-item-current, .pagination-item-blank):focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 20px;
   height: 20px;
 
@@ -2077,11 +2081,11 @@ pagination-item:not(.pagination-item-current, .pagination-item-blank):focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 20px;
   height: 20px;
 
@@ -2199,7 +2203,7 @@ pagination-item:not(.pagination-item-current, .pagination-item-blank):focus {
 .children-input::-webkit-inner-spin-button {
   /* Оформление */
   -webkit-appearance: none;
-          appearance: none;
+  appearance: none;
   margin: 0;
 }
 
@@ -2215,8 +2219,8 @@ pagination-item:not(.pagination-item-current, .pagination-item-blank):focus {
 .children-title {
   /* Блочная модель */
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 
   /* Типографика */
   font-size: 20px;
@@ -2259,7 +2263,7 @@ button.modal-search:active {
   right: 47px;
   z-index: 1;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 
   /* Блочная модель */
   display: none;
@@ -2274,7 +2278,7 @@ button.modal-search:active {
   /* Оформление */
   background-color: #333333;
   -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
 
 .popover::after {
