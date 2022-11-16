@@ -2,7 +2,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/ptsans-400.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -10,7 +10,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("/fonts/ptsans-700.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -361,7 +361,7 @@ img.logo {
 
 .search {
   /* Оформление */
-  background-image: url("/images/icons/search.svg");
+  background-image: url("../images/icons/search.svg");
 }
 
 .favourites {
@@ -369,7 +369,7 @@ img.logo {
   position: relative;
 
   /* Оформление */
-  background-image: url("/images/icons/heart.svg");
+  background-image: url("../images/icons/heart.svg");
 }
 
 .favourites-count {
@@ -510,7 +510,7 @@ img.logo {
   height: 57px;
 
   /* Оформление */
-  background-image: url("/images/hero-decoration.svg");
+  background-image: url("../images/hero-decoration.svg");
   background-repeat: no-repeat;
 }
 
@@ -683,17 +683,17 @@ img.logo {
 
 .accomodation {
   /* Оформление */
-  background-image: url("/images/icons/advantages/home.svg");
+  background-image: url("../images/icons/advantages/home.svg");
 }
 
 .food {
   /* Оформление */
-  background-image: url("/images/icons/advantages/burger.svg");
+  background-image: url("../images/icons/advantages/burger.svg");
 }
 
 .souvenir {
   /* Оформление */
-  background-image: url("/images/icons/advantages/present.svg");
+  background-image: url("../images/icons/advantages/present.svg");
 }
 
 .reco-item:nth-child(odd) {
@@ -787,7 +787,7 @@ img.logo {
 
 .subscribe-index {
   /* Оформление */
-  background-image: url("/images/subscribe-background.jpg");
+  background-image: url("../images/subscribe-background.jpg");
   background-repeat: no-repeat;
 }
 
@@ -866,7 +866,7 @@ img.logo {
   margin-bottom: 50px;
 
   /* Оформление */
-  background-image: url("/images/hotels-background.jpg");
+  background-image: url("../images/hotels-background.jpg");
   background-repeat: no-repeat;
 }
 
@@ -900,7 +900,7 @@ img.logo {
   margin-right: 10px;
 
   /* Оформление */
-  background-image: url("/images/icons/arrow-right.svg");
+  background-image: url("../images/icons/arrow-right.svg");
   background-repeat: no-repeat;
   background-position: center right;
 }
@@ -917,7 +917,7 @@ img.logo {
   height: 12px;
 
   /* Оформление */
-  background-image: url("/images/icons/house.svg");
+  background-image: url("../images/icons/house.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1095,7 +1095,7 @@ input[type="checkbox"]:checked + .checkbox-mark::before {
   height: 11px;
 
   /* Оформление */
-  background-image: url("/images/icons/check-mark.svg");
+  background-image: url("../images/icons/check-mark.svg");
   background-repeat: no-repeat;
 }
 
@@ -1321,7 +1321,7 @@ input[type="checkbox"]:active + .mark {
   color: #333333;
 
   /* Оформление */
-  background-image: url("/images/icons/arrow-down.svg");
+  background-image: url("../images/icons/arrow-down.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
   border: 2px solid #E5E5E5;
@@ -1396,17 +1396,17 @@ select:disabled .select-control {
 
 .tile-view {
   /* Оформление */
-  background-image: url("/images/icons/view/tile.svg");
+  background-image: url("../images/icons/view/tile.svg");
 }
 
 .slideshow-view {
   /* Оформление */
-  background-image: url("/images/icons/view/slideshow.svg");
+  background-image: url("../images/icons/view/slideshow.svg");
 }
 
 .list-view {
   /* Оформление */
-  background-image: url("/images/icons/view/list.svg");
+  background-image: url("../images/icons/view/list.svg");
 }
 
 .catalog {
@@ -2161,7 +2161,7 @@ pagination-item:not(.pagination-item-current, .pagination-item-blank):focus {
   height: 12px;
   ;
 
-  background-image: url("/images/icons/i.svg");
+  background-image: url("../images/icons/i.svg");
   background-repeat: no-repeat;
 }
 
@@ -2290,6 +2290,6 @@ button.modal-search:active {
   width: 19px;
   height: 9px;
 
-  background-image: url("/images/icons/popover-arrow.svg");
+  background-image: url("../images/icons/popover-arrow.svg");
   background-repeat: no-repeat;
 }
