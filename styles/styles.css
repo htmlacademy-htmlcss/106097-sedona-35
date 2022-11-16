@@ -251,7 +251,7 @@ body {
 .field:active {
   /* Оформление */
   background-color: #F2F2F2;
-  border: 2px solid #000000;
+  outline: 2px solid #000000;
 }
 
 
