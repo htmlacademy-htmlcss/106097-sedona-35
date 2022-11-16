@@ -153,7 +153,7 @@ body {
   /* Позиционирование */
   position: absolute;
   content: "";
-  top: 86px;
+  bottom: -30px;
   left: 85px;
 
   /* Блочная модель */
@@ -348,7 +348,8 @@ img.logo {
 }
 
 .button-want {
-  line-height: 36px;
+  display: block;
+  padding: 8px;
 }
 
 
@@ -452,6 +453,7 @@ img.logo {
   flex-basis: 400px;
   align-items: center;
   padding-top: 92px;
+  padding-bottom: 111px;
 
   /* Типографика */
   text-align: center;
@@ -585,6 +587,7 @@ img.logo {
   flex-direction: column;
   align-items: center;
   padding-top: 96px;
+  padding-bottom: 96px;
   min-height: 406px;
 
   /* Типографика */
@@ -625,6 +628,7 @@ img.logo {
   align-items: center;
   min-height: 414.86px;
   padding-top: 96px;
+  padding-bottom: 96px;
 
   /* Типографика */
   text-align: center;
@@ -1008,7 +1012,7 @@ input[type="checkbox"]:active + .mark {
 .button.apply-button {
   /* Блочная модель */
   margin-bottom: 32px;
-  padding: 0 50px;
+  padding: 8px 50px;
 
   /* Оформление */
   background-color: #82B3D3;
@@ -1016,7 +1020,7 @@ input[type="checkbox"]:active + .mark {
 
 .button.cancel-button {
   /* Блочная модель */
-  padding: 0 50px;
+  padding: 8px 50px;
 
   /* Оформление */
   background-color: transparent;
@@ -1236,6 +1240,7 @@ select:disabled .select-control {
 .hotel-description {
   /* Блочная модель */
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 
   /* Типографика */
@@ -1337,6 +1342,11 @@ select:disabled .select-control {
   /* Оформление */
   background-color: #F2F2F2;
   border-radius: 4px;
+}
+
+.stars {
+  /* Блочная модель */
+  min-width: 140px;
 }
 
 .pagination-list {
