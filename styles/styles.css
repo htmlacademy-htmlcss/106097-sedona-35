@@ -1443,7 +1443,7 @@ pagination-item:not(.pagination-item-current, .pagination-item-blank):focus {
 }
 
 .modal-container-close {
-  display: none;
+  /* display: none; */
 }
 
 .modal {
