@@ -812,7 +812,7 @@ body {
   /* Оформление */
   background-image: url("../images/subscribe-background.jpg");
   background-repeat: repeat;
-  background-color: #000000;
+  background-color: #243c44;
 }
 
 .headline-subscribe {
@@ -890,7 +890,7 @@ body {
   margin-bottom: 50px;
 
   /* Оформление */
-  background-color: #333333;
+  background-color: #343e44;
   background-image: url("../images/hotels-background.jpg");
   background-repeat: no-repeat;
 }
