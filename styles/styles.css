@@ -520,13 +520,25 @@ body {
 
 .hero {
   /* Позиционирование */
+  box-sizing: border-box;
   position: relative;
+
+  /* Блочная модель */
+  display: flex;
+  justify-content: center;
+  min-height: 485px;
+  padding-top: 51px;
+  margin-bottom: 48px;
+
+  background-color: #254455;
+  background-image: url("/images/hero-background.jpg");
+  background-repeat: no-repeat;
 }
 
 .hero::after {
   /* Позиционирование */
   position: absolute;
-  top: 428px;
+  bottom: 0;
   content: "";
   width: 1200px;
   height: 57px;
@@ -537,8 +549,8 @@ body {
 }
 
 .hero-image {
-  /* Блочная модель */
-  margin-bottom: 39px;
+
+
 }
 
 .hero-text {
