@@ -541,16 +541,6 @@ body {
   margin-bottom: 39px;
 }
 
-.welcome {
-  /* Позиционирование */
-  position: absolute;
-  top: 51px;
-  left: 371px;
-
-  /* Блочная модель */
-  max-width: 500px;
-}
-
 .hero-text {
   /* Типографика */
   text-align: center;
