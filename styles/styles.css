@@ -540,17 +540,12 @@ body {
   position: absolute;
   bottom: 0;
   content: "";
-  width: 1200px;
+  width: 100%;
   height: 57px;
 
   /* Оформление */
   background-image: url("../images/hero-decoration.svg");
   background-repeat: no-repeat;
-}
-
-.hero-image {
-
-
 }
 
 .hero-text {
